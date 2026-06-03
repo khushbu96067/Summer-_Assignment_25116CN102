@@ -5,9 +5,9 @@ int main()
 
     printf("Enter start and end of range:");
     scanf("%d %d", &start, &end);
-    printf("prime numbares are:\n");
+    printf("prime numbers are:\n");
 
-    for(i=start, i<=end; i++)
+    for(i=start; i<=end; i++)
     {
         if(i<2)
         continue;
@@ -23,7 +23,7 @@ int main()
         }
     }
     if(prime)
-    printf("%d",i);
+    printf("%d", i);
 }
 return 0;
 }
